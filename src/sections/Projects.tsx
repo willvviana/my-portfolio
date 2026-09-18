@@ -1,42 +1,53 @@
 function Projects() {
   return (
     <section id="projects">
-      <h2>Projects</h2>
+      <div className="section-content">
+        <h2 className="section-title">Projects</h2>
 
-      <article>
-        <h3>Personal Portfolio</h3>
+        <div className="projects-grid">
+          <article className="project-card">
+            <h3>Personal Portfolio</h3>
 
-        <p>
-          A personal portfolio built to showcase my experience,
-          software engineering skills, and projects.
-        </p>
+            <p>
+              A personal portfolio built to demonstrate my transition from
+              Technical Support into Software Engineering.
+            </p>
 
-        <p>
-          <strong>Problem:</strong> Create a simple and professional
-          portfolio to present my transition from Technical Support
-          to Software Engineering.
-        </p>
+            <p className="project-tech">
+              React · TypeScript · Vite
+            </p>
 
-        <p>
-          <strong>Solution:</strong> A responsive portfolio built
-          with React and TypeScript, with a focus on clean structure,
-          usability, and maintainability.
-        </p>
+            <a
+              href="https://github.com/willvviana/my-portfolio"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Repository
+            </a>
+          </article>
 
-        <p>
-          <strong>Technologies:</strong> React, TypeScript, Vite
-        </p>
+          <article className="project-card">
+            <h3>Machine Learning Projects</h3>
 
-        <div>
-          <a
-            href="https://github.com/willvviana"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub
-          </a>
+            <p>
+              A collection of machine learning projects covering regression,
+              clustering, data analysis, and model evaluation.
+            </p>
+
+            <p className="project-tech">
+              Python · Pandas · Scikit-learn · Matplotlib
+            </p>
+
+            <a
+              href="https://github.com/willvviana/elevvo-machine-learning"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Repository
+            </a>
+          </article>
         </div>
-      </article>
+      </div>
     </section>
   );
 }

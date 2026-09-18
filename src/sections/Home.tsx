@@ -1,23 +1,33 @@
 function Home() {
   return (
-    <section id="home">
-      <h1>Hi, I'm Willian!</h1>
+    <section id="home" className="hero">
+      <div className="hero-content">
+        <p className="hero-greeting">Hi, I'm Willian.</p>
 
-      <p>
-        Technical Support Specialist transitioning into Software
-        Engineering.
-      </p>
+        <h1>
+        Technical Support Specialist
+        <span>→ Software Engineering</span>
+        </h1>
 
-      <div>
-        <a
-          href="https://github.com/willvviana"
-          target="_blank"
-          rel="noreferrer"
-        >
-          GitHub
-        </a>
+        <p className="hero-description">
+          I build practical software and I'm transitioning from Technical
+          Support into Software Engineering.
+        </p>
 
-        <a href="#projects">View Projects</a>
+        <div className="hero-actions">
+          <a href="#projects" className="hero-button primary">
+            View Projects
+          </a>
+
+          <a
+            href="https://github.com/willvviana"
+            target="_blank"
+            rel="noreferrer"
+            className="hero-button secondary"
+          >
+            GitHub
+          </a>
+        </div>
       </div>
     </section>
   );
