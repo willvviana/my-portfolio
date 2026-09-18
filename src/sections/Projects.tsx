@@ -9,12 +9,23 @@ function Projects() {
             <h3>Personal Portfolio</h3>
 
             <p>
-              A personal portfolio built to demonstrate my transition from
-              Technical Support into Software Engineering.
+              <strong>Problem:</strong> I needed a professional way to present
+              my transition from Technical Support into Software Engineering.
             </p>
 
-            <p className="project-tech">
-              React · TypeScript · Vite
+            <p>
+              <strong>Solution:</strong> A responsive personal portfolio
+              focused on presenting my experience, projects, and software
+              engineering journey.
+            </p>
+
+            <p>
+              <strong>Technologies:</strong> React · TypeScript · Vite
+            </p>
+
+            <p>
+              <strong>Learning:</strong> Component-based development, project
+              organization, responsive CSS, and frontend development.
             </p>
 
             <a
@@ -22,7 +33,7 @@ function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              View Repository
+              View Repository →
             </a>
           </article>
 
@@ -30,12 +41,23 @@ function Projects() {
             <h3>Machine Learning Projects</h3>
 
             <p>
-              A collection of machine learning projects covering regression,
-              clustering, data analysis, and model evaluation.
+              <strong>Problem:</strong> Apply machine learning concepts to
+              practical problems using real datasets.
             </p>
 
-            <p className="project-tech">
-              Python · Pandas · Scikit-learn · Matplotlib
+            <p>
+              <strong>Solution:</strong> A collection of projects covering
+              regression, clustering, data analysis, and model evaluation.
+            </p>
+
+            <p>
+              <strong>Technologies:</strong> Python · Pandas · Scikit-learn ·
+              Matplotlib
+            </p>
+
+            <p>
+              <strong>Learning:</strong> Data preprocessing, exploratory data
+              analysis, model training, clustering, and model evaluation.
             </p>
 
             <a
@@ -43,7 +65,7 @@ function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              View Repository
+              View Repository →
             </a>
           </article>
         </div>

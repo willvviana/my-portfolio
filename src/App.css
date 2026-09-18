@@ -13,6 +13,7 @@ section {
   width: 100%;
   background: #0f1115;
   color: #f5f5f5;
+  scroll-margin-top: 80px;
 }
 
 .section-content {
@@ -140,6 +141,8 @@ section {
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
   padding: 28px;
   background: #15181e;
   border: 1px solid #2a2d35;
@@ -147,20 +150,28 @@ section {
 }
 
 .project-card h3 {
-  margin-top: 0;
-  margin-bottom: 16px;
+  margin: 0 0 16px;
+  font-size: 1.3rem;
 }
 
 .project-card p {
+  margin: 0 0 16px;
   color: #a1a1aa;
   line-height: 1.6;
 }
 
+.project-card strong {
+  color: #f5f5f5;
+}
+
 .project-tech {
+  margin-top: auto !important;
+  padding-top: 8px;
   font-size: 0.9rem;
 }
 
 .project-card a {
+  margin-top: 8px;
   color: #f5f5f5;
   font-weight: 600;
   text-decoration: none;

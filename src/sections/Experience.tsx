@@ -15,9 +15,10 @@ function Experience() {
           </div>
 
           <p className="section-text">
-            Support integration testing and incident management, with a focus
-            on debugging, issue analysis, software quality, and cross-functional
-            collaboration.
+            Provide technical support for B2B SaaS products, working with
+            integration testing, APIs, incident management, troubleshooting,
+            and cross-functional collaboration with engineering and product
+            teams.
           </p>
 
           <p className="experience-skills">
@@ -36,8 +37,9 @@ function Experience() {
           </div>
 
           <p className="section-text">
-            Developed practical projects across web development, backend APIs,
-            data analysis, and introductory machine learning.
+            Built practical projects across frontend and backend development,
+            data analysis, and introductory machine learning as part of a
+            hands-on software engineering internship.
           </p>
 
           <p className="experience-skills">
@@ -58,8 +60,8 @@ function Experience() {
 
           <p className="section-text">
             Investigated complex SaaS issues, reproduced technical problems,
-            documented software bugs, and collaborated with engineering and QA
-            teams to resolve incidents.
+            identified potential causes, documented software bugs, and
+            collaborated with engineering and QA teams on incident resolution.
           </p>
 
           <p className="experience-skills">

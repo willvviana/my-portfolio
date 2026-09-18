@@ -5,8 +5,9 @@ function Contact() {
         <h2 className="section-title">Contact</h2>
 
         <p className="section-text">
-          If you would like to get in touch, feel free to connect with
-          me through GitHub or LinkedIn.
+          I'm open to software engineering opportunities, internships, and
+          technical conversations. Feel free to connect with me through email,
+          GitHub, or LinkedIn.
         </p>
 
         <div className="contact-links">

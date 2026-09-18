@@ -5,13 +5,13 @@ function Home() {
         <p className="hero-greeting">Hi, I'm Willian.</p>
 
         <h1>
-        Technical Support Specialist
-        <span>→ Software Engineering</span>
+          Technical Support Specialist
+          <span>→ Software Engineering</span>
         </h1>
 
         <p className="hero-description">
-          I build practical software and I'm transitioning from Technical
-          Support into Software Engineering.
+          Software Engineering student building practical projects with
+          React, TypeScript, Node.js, and Python.
         </p>
 
         <div className="hero-actions">

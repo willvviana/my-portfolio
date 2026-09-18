@@ -5,15 +5,18 @@ function About() {
         <h2 className="section-title">About Me</h2>
 
         <p className="section-text">
-          I'm a Technical Support Specialist transitioning into Software
-          Engineering. I'm currently studying Software Engineering and building
-          practical projects to develop my skills.
+          I'm a Software Engineering student transitioning from Technical
+          Support into Software Engineering. I'm focused on building practical
+          software projects and developing strong foundations in frontend,
+          backend, APIs, databases, and software development.
         </p>
 
         <p className="section-text">
-          My experience in technical support has given me a strong foundation
-          in troubleshooting, APIs, integrations, documentation, and
-          collaboration with technical teams.
+          My background in technical support has given me hands-on experience
+          with troubleshooting, APIs, integrations, incident management,
+          documentation, and collaboration with engineering and product teams.
+          I bring that technical and problem-solving experience into my
+          software engineering journey.
         </p>
       </div>
     </section>
