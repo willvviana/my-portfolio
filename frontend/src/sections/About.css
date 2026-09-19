@@ -1,0 +1,8 @@
+#about {
+  padding: 100px 24px;
+}
+
+#about .section-text {
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
