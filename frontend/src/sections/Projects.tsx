@@ -49,6 +49,14 @@ function Projects() {
 
             <div className="project-links">
               <a
+                href="https://triage-api-5bs6.onrender.com/health"
+                target="_blank"
+                rel="noreferrer"
+              >
+                API Health -&gt;
+              </a>
+
+              <a
                 href="https://triage-coral-beta.vercel.app"
                 target="_blank"
                 rel="noreferrer"
@@ -64,13 +72,6 @@ function Projects() {
                 Source Code -&gt;
               </a>
 
-              <a
-                href="https://triage-api-5bs6.onrender.com/health"
-                target="_blank"
-                rel="noreferrer"
-              >
-                API Health -&gt;
-              </a>
             </div>
           </article>
 
