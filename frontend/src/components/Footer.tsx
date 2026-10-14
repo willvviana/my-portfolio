@@ -1,51 +1,60 @@
-
 import "./Footer.css";
 
 function Footer() {
+  // Automatically update the copyright year.
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer">
       <div className="footer-content">
+        {/* Brand and navigation */}
         <div className="footer-top">
           <div className="footer-brand">
-            <a href="#home" className="footer-name">
-              Willian Viana
+            <a className="footer-name" href="#home">
+              Will Viana
             </a>
 
             <span className="footer-role">
-              Software Engineering
+              Software Engineer
             </span>
           </div>
 
           <nav className="footer-nav" aria-label="Footer navigation">
-            <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#experience">Experience</a>
             <a href="#contact">Contact</a>
           </nav>
 
+          {/* External professional profiles */}
           <div className="footer-social">
             <a
               href="https://github.com/willvviana"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
+              aria-label="GitHub profile (opens in a new tab)"
             >
-              GitHub <span aria-hidden="true">↗</span>
+              GitHub
             </a>
 
             <a
-              href="https://www.linkedin.com/in/willian-viana-wvv/"
+              href="https://www.linkedin.com/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn profile (opens in a new tab)"
             >
-              LinkedIn <span aria-hidden="true">↗</span>
+              LinkedIn
             </a>
           </div>
         </div>
 
+        {/* Copyright and back-to-top link */}
         <div className="footer-bottom">
-          <span>© {new Date().getFullYear()} Willian Viana</span>
-          <span>React · TypeScript · Vite</span>
+          <span>
+            © {currentYear} Will Viana. All rights reserved.
+          </span>
+
+          <a href="#home">Back to top ↑</a>
         </div>
       </div>
     </footer>
