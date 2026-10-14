@@ -18,31 +18,9 @@ function Experience() {
           <article className="experience-item">
             <div className="experience-header">
               <div>
-                <h3>IT Support Consultant</h3>
-                <p className="experience-company">SupportYourApp</p>
-              </div>
-
-              <span className="experience-date">Oct 2024 - Present</span>
-            </div>
-
-            <p className="experience-description">
-              Provide technical support and investigate product issues,
-              applying structured troubleshooting and clear technical
-              communication to help resolve customer problems.
-            </p>
-
-            <p className="experience-skills">
-              Technical Support · Troubleshooting · Incident Investigation
-              · Customer Communication
-            </p>
-          </article>
-
-          <article className="experience-item">
-            <div className="experience-header">
-              <div>
                 <h3>Full-Stack Engineer Intern</h3>
                 <p className="experience-company">
-                  Elevvo · Part-time
+                  Elevvo · Internship Program
                 </p>
               </div>
 
@@ -65,6 +43,28 @@ function Experience() {
             <p className="experience-skills">
               React · TypeScript · Node.js · Express · PostgreSQL ·
               REST APIs · Python · Machine Learning
+            </p>
+          </article>
+          
+          <article className="experience-item">
+            <div className="experience-header">
+              <div>
+                <h3>IT Support Consultant</h3>
+                <p className="experience-company">SupportYourApp</p>
+              </div>
+
+              <span className="experience-date">Oct 2024 - Present</span>
+            </div>
+
+            <p className="experience-description">
+              Provide technical support and investigate product issues,
+              applying structured troubleshooting and clear technical
+              communication to help resolve customer problems.
+            </p>
+
+            <p className="experience-skills">
+              Technical Support · Troubleshooting · Incident Investigation
+              · Customer Communication
             </p>
           </article>
 

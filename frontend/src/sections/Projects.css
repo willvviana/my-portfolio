@@ -1,5 +1,5 @@
 #projects {
-  padding: 120px 24px;
+  padding: 64px 24px 100px;
   background: var(--color-bg);
 }
 
@@ -38,9 +38,7 @@
   border: 1px solid var(--color-border);
   border-radius: 4px;
   background: var(--color-surface);
-  transition:
-    border-color 180ms ease,
-    transform 180ms ease;
+  transition: border-color 180ms ease, transform 180ms ease;
 }
 
 .project-card:hover {
@@ -124,7 +122,7 @@
 
 @media (max-width: 600px) {
   #projects {
-    padding: 84px 22px;
+    padding: 48px 22px 72px;
   }
 
   .section-intro {
