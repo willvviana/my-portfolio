@@ -1,41 +1,56 @@
-
+/* Fixed header spanning the full width of the viewport. */
 .header {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
+
   width: 100%;
+
+  /* Subtle divider and translucent background keep the header
+     visually separate while allowing content to scroll beneath it. */
   border-bottom: 1px solid var(--color-border);
   background: rgb(16 17 20 / 92%);
   backdrop-filter: blur(12px);
 }
 
+/* Main navigation layout.
+   Removed max-width: 1100px so the content can use the full screen width.
+   Responsive horizontal padding keeps content away from the screen edges. */
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  max-width: 1100px;
+
+  width: 100%;
   min-height: 72px;
-  margin: 0 auto;
-  padding: 12px 24px;
+  margin: 0;
+
+  /* Scales padding with viewport width while keeping reasonable limits. */
+  padding: 12px clamp(24px, 3vw, 80px);
 }
 
+/* Brand name on the left side of the navigation. */
 .nav-logo {
   flex-shrink: 0;
+
   color: var(--color-text);
   font-family: var(--font-heading);
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: -0.025em;
   text-decoration: none;
+
   transition: color 180ms ease;
 }
 
+/* Accent color on hover provides visual feedback. */
 .nav-logo:hover {
   color: var(--color-accent);
 }
 
+/* Navigation links occupy the right side and wrap if necessary. */
 .nav-links {
   display: flex;
   align-items: center;
@@ -44,29 +59,37 @@
   gap: 8px 24px;
 }
 
+/* Individual navigation links. */
 .nav-links a {
   position: relative;
+
   padding: 8px 0;
   color: var(--color-muted);
   font-size: 0.85rem;
   font-weight: 500;
   text-decoration: none;
+
   transition: color 180ms ease;
 }
 
+/* Small underline that animates in when a link is hovered. */
 .nav-links a::after {
   position: absolute;
   right: 0;
   bottom: 2px;
   left: 0;
+
   height: 1px;
   background: var(--color-accent);
   content: "";
+
   transform: scaleX(0);
   transform-origin: right;
+
   transition: transform 180ms ease;
 }
 
+/* Hover states for desktop navigation. */
 .nav-links a:hover {
   color: var(--color-text);
 }
@@ -76,17 +99,22 @@
   transform-origin: left;
 }
 
+/* Visible keyboard focus improves accessibility. */
 .nav-logo:focus-visible,
 .nav-links a:focus-visible {
   outline: 2px solid var(--color-accent);
   outline-offset: 4px;
 }
 
+/* Tablet and mobile layout.
+   Stack the brand and navigation when horizontal space becomes limited. */
 @media (max-width: 700px) {
   .nav {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+
+    min-height: auto;
     padding: 14px 20px;
   }
 
@@ -100,12 +128,14 @@
   }
 }
 
+/* Tighten spacing on very narrow screens. */
 @media (max-width: 380px) {
   .nav-links {
     gap: 2px 12px;
   }
 }
 
+/* Respect users who prefer reduced motion. */
 @media (prefers-reduced-motion: reduce) {
   .nav-logo,
   .nav-links a,
