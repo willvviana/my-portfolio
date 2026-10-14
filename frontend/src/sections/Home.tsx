@@ -1,3 +1,4 @@
+
 import "./Home.css";
 
 function Home() {
@@ -6,14 +7,12 @@ function Home() {
       <div className="hero-content">
         <p className="hero-greeting">Hi, I'm Willian.</p>
 
-        <h1>
-          Technical Support Specialist
-          <span>→ Software Engineering</span>
-        </h1>
+        <h1>Full-Stack Engineer</h1>
 
         <p className="hero-description">
-          Software Engineering student building practical projects with
-          React, TypeScript, Node.js, and Python.
+          Software Engineering student and Full-Stack Engineer Intern
+          at Elevvo, building practical applications with React,
+          TypeScript, Node.js, and PostgreSQL.
         </p>
 
         <div className="hero-actions">

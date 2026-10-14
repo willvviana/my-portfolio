@@ -1,3 +1,4 @@
+
 import "./Footer.css";
 
 function Footer() {
@@ -6,13 +7,16 @@ function Footer() {
       <div className="footer-content">
         <div className="footer-top">
           <div className="footer-brand">
-            <span className="footer-name">Willian Viana</span>
+            <a href="#home" className="footer-name">
+              Willian Viana
+            </a>
+
             <span className="footer-role">
               Software Engineering
             </span>
           </div>
 
-          <nav className="footer-nav">
+          <nav className="footer-nav" aria-label="Footer navigation">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
@@ -26,7 +30,7 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              GitHub
+              GitHub <span aria-hidden="true">↗</span>
             </a>
 
             <a
@@ -34,13 +38,13 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              LinkedIn
+              LinkedIn <span aria-hidden="true">↗</span>
             </a>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <span>© 2026 Willian Viana</span>
+          <span>© {new Date().getFullYear()} Willian Viana</span>
           <span>React · TypeScript · Vite</span>
         </div>
       </div>

@@ -1,95 +1,115 @@
+
 import "./Experience.css";
 
 function Experience() {
   return (
     <section id="experience">
       <div className="section-content">
+        <p className="section-eyebrow">CAREER & DEVELOPMENT</p>
+
         <h2 className="section-title">Experience</h2>
 
-        <div className="experience-item">
-          <div className="experience-header">
-            <div>
-              <h3>IT Support Consultant</h3>
-              <p className="experience-company">SupportYourApp</p>
+        <p className="experience-intro">
+          Combining hands-on technical support experience with practical
+          software engineering projects and continuous development.
+        </p>
+
+        <div className="experience-list">
+          <article className="experience-item">
+            <div className="experience-header">
+              <div>
+                <h3>IT Support Consultant</h3>
+                <p className="experience-company">SupportYourApp</p>
+              </div>
+
+              <span className="experience-date">Oct 2024 - Present</span>
             </div>
 
-            <span>2024 – Present</span>
-          </div>
+            <p className="experience-description">
+              Provide technical support and investigate product issues,
+              applying structured troubleshooting and clear technical
+              communication to help resolve customer problems.
+            </p>
 
-          <p className="section-text">
-            Provide technical support for B2B SaaS products, working with
-            integration testing, APIs, incident management, troubleshooting,
-            and cross-functional collaboration with engineering and product
-            teams.
-          </p>
+            <p className="experience-skills">
+              Technical Support · Troubleshooting · Incident Investigation
+              · Customer Communication
+            </p>
+          </article>
 
-          <p className="experience-skills">
-            Jira · Git · Confluence · SaaS · APIs · SDLC · Agile
-          </p>
-        </div>
+          <article className="experience-item">
+            <div className="experience-header">
+              <div>
+                <h3>Full-Stack Engineer Intern</h3>
+                <p className="experience-company">
+                  Elevvo · Part-time
+                </p>
+              </div>
 
-        <div className="experience-item">
-          <div className="experience-header">
-            <div>
-              <h3>Software Engineer Intern</h3>
-              <p className="experience-company">Elevvo</p>
+              <span className="experience-date">2026 - Present</span>
             </div>
 
-            <span>2026</span>
-          </div>
+            <p className="experience-description">
+              Develop practical projects across frontend and backend
+              engineering, with a growing focus on backend development,
+              API design, database integration, and maintainable application
+              architecture.
+            </p>
 
-          <p className="section-text">
-            Built practical projects across frontend and backend development,
-            data analysis, and introductory machine learning as part of a
-            hands-on software engineering internship.
-          </p>
+            <p className="experience-description">
+              Also work on machine learning projects and data analysis,
+              building foundations for a longer-term progression toward
+              AI engineering.
+            </p>
 
-          <p className="experience-skills">
-            React · TypeScript · JavaScript · Node.js · Express · PostgreSQL ·
-            Python · Docker
-          </p>
-        </div>
+            <p className="experience-skills">
+              React · TypeScript · Node.js · Express · PostgreSQL ·
+              REST APIs · Python · Machine Learning
+            </p>
+          </article>
 
-        <div className="experience-item">
-          <div className="experience-header">
-            <div>
-              <h3>IT Support Consultant</h3>
-              <p className="experience-company">Happeo</p>
+          <article className="experience-item">
+            <div className="experience-header">
+              <div>
+                <h3>IT Support Consultant</h3>
+                <p className="experience-company">Happeo</p>
+              </div>
+
+              <span className="experience-date">2022 - 2024</span>
             </div>
 
-            <span>2022 – 2024</span>
-          </div>
+            <p className="experience-description">
+              Investigated complex SaaS issues, reproduced technical
+              problems, documented bugs, and collaborated with engineering
+              and QA teams to support incident resolution.
+            </p>
 
-          <p className="section-text">
-            Investigated complex SaaS issues, reproduced technical problems,
-            identified potential causes, documented software bugs, and
-            collaborated with engineering and QA teams on incident resolution.
-          </p>
+            <p className="experience-skills">
+              SaaS Support · Bug Reporting · Troubleshooting ·
+              Jira · Zendesk · Cross-functional Collaboration
+            </p>
+          </article>
 
-          <p className="experience-skills">
-            Zendesk · Jira · SaaS · Troubleshooting · Bug Reporting
-          </p>
-        </div>
+          <article className="experience-item">
+            <div className="experience-header">
+              <div>
+                <h3>ESL Teacher / English Language Instructor</h3>
+                <p className="experience-company">Self-Employed</p>
+              </div>
 
-        <div className="experience-item">
-          <div className="experience-header">
-            <div>
-              <h3>ESL Teacher / English Language Instructor</h3>
-              <p className="experience-company">Self-Employed</p>
+              <span className="experience-date">2021 - 2022</span>
             </div>
 
-            <span>2021 – 2022</span>
-          </div>
+            <p className="experience-description">
+              Designed and delivered tailored English lessons for students
+              and professionals, including workplace communication and
+              language development for technical contexts.
+            </p>
 
-          <p className="section-text">
-            Designed and delivered personalized English programs for students,
-            software engineers, and IT professionals, including technical
-            workplace communication.
-          </p>
-
-          <p className="experience-skills">
-            Teaching · Communication · Mentoring · Remote Learning
-          </p>
+            <p className="experience-skills">
+              Communication · Teaching · Mentoring · Remote Learning
+            </p>
+          </article>
         </div>
       </div>
     </section>

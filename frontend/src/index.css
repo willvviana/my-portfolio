@@ -1,11 +1,24 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
 :root {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #111111;
-  background: #ffffff;
+  font-family: "Inter", sans-serif;
+  color: #f2eee6;
+  background: #101114;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --color-bg: #101114;
+  --color-surface: #191a1e;
+  --color-text: #f2eee6;
+  --color-muted: #a6a29b;
+  --color-accent: #b83a42;
+  --color-border: #303137;
+
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
 }
 
 * {
@@ -14,13 +27,31 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 90px;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: #ffffff;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  color: var(--color-text);
+  background: var(--color-accent);
 }
 
 #root {
