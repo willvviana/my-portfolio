@@ -4,7 +4,7 @@ My personal portfolio website, built to showcase my experience, projects, and tr
 
 ## Live Website
 
-**Portfolio:** https://willviana-portfolio.vercel.app/
+**Portfolio:** https://willianviana-portfolio.vercel.app/
 
 **GitHub:** https://github.com/willvviana/my-portfolio
 
