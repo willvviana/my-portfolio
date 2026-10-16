@@ -10,33 +10,24 @@ function About() {
         <h2 className="section-title">About Me</h2>
 
         <p className="section-text">
-          I'm a Software Engineering student and Full-Stack Engineer Intern
-          at Elevvo, focused on building practical software applications.
-          My current work and projects help me develop my skills across
-          frontend development, backend APIs, databases, and machine learning.
+          I’m a Software Engineering student building full-stack applications
+          with React, TypeScript, Node.js, Express, and PostgreSQL. My projects
+          include responsive interfaces, REST APIs, database-backed features,
+          automated tests, and CI workflows.
         </p>
 
         <p className="section-text">
-          Before moving into software engineering, I built experience in
-          technical support for SaaS products. Working with APIs,
-          integrations, troubleshooting, incident investigation, and
-          engineering teams taught me to approach problems systematically
-          and consider how software behaves in real-world environments.
-        </p>
-
-        <p className="section-text">
-          I'm continuing to strengthen my foundations in software design,
-          implementation, testing, and deployment through hands-on projects.
-          My goal is to grow into a software engineer who can build reliable,
-          maintainable applications and contribute effectively to an
-          engineering team.
+          My SaaS technical support background strengthened my troubleshooting,
+          communication, and incident investigation skills. I bring a practical,
+          user-focused approach to solving problems and collaborating with
+          engineering teams.
         </p>
 
         <div className="about-focus">
-          <span>Frontend Development</span>
-          <span>Backend APIs</span>
-          <span>Databases</span>
-          <span>Machine Learning</span>
+          <span>React &amp; TypeScript</span>
+          <span>Node.js &amp; REST APIs</span>
+          <span>PostgreSQL</span>
+          <span>Testing &amp; CI</span>
         </div>
       </div>
     </section>

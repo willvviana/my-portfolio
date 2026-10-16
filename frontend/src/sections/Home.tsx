@@ -9,14 +9,20 @@ function Home() {
 
         <h1>Full-Stack Engineer</h1>
 
-        <p className="hero-description">
-          Software Engineering student and Full-Stack Engineer Intern
-          at Elevvo, building practical applications with React,
-          TypeScript, Node.js, and PostgreSQL.
-        </p>
+        <div className="hero-description">
+          <p>
+            Software Engineering student with full-stack experience at Elevvo
+            and a background in SaaS technical support.
+          </p>
+          <p>
+            I build applications with React, TypeScript, Node.js, Express, and
+            PostgreSQL, including personal finance, support analytics, and
+            machine learning projects.
+          </p>
+        </div>
 
         <div className="hero-actions">
-          <a href="#projects" className="hero-button primary">
+          <a href="/projects" className="hero-button primary">
             View Projects
           </a>
 

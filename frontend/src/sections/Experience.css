@@ -1,5 +1,5 @@
 #experience {
-  padding: 64px 24px 100px;
+  padding: 120px 24px 100px;
   background: var(--color-bg);
 }
 
@@ -29,42 +29,80 @@
 }
 
 .experience-item {
-  padding: 28px;
   border: 1px solid var(--color-border);
   border-radius: 4px;
   background: var(--color-surface);
-  transition: border-color 180ms ease, transform 180ms ease;
+  transition: border-color 180ms ease;
 }
 
 .experience-item:hover {
   border-color: rgb(184 58 66 / 65%);
-  transform: translateY(-2px);
 }
 
-.experience-header {
+.experience-summary {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   gap: 24px;
-  margin-bottom: 18px;
+  padding: 24px 28px;
+  cursor: pointer;
+  list-style: none;
 }
 
-.experience-header h3 {
-  margin: 0 0 8px;
+.experience-summary::-webkit-details-marker {
+  display: none;
+}
+
+.experience-summary:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: -4px;
+}
+
+.experience-heading {
+  display: grid;
+  gap: 7px;
+}
+
+.experience-role {
   font-family: var(--font-heading);
   font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: -0.02em;
+  line-height: 1.35;
 }
 
 .experience-company {
   margin: 0;
   color: var(--color-accent);
-  font-size: 0.92rem;
-  font-weight: 600;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.experience-arrow {
+  width: 10px;
+  height: 10px;
+  flex: 0 0 10px;
+  border-right: 2px solid var(--color-muted);
+  border-bottom: 2px solid var(--color-muted);
+  transform: translateY(-3px) rotate(45deg);
+  transition: transform 180ms ease, border-color 180ms ease;
+}
+
+.experience-item[open] .experience-arrow {
+  border-color: var(--color-accent);
+  transform: translateY(3px) rotate(225deg);
+}
+
+.experience-content {
+  padding: 18px 28px 26px;
+  border-top: 1px solid var(--color-border);
 }
 
 .experience-date {
+  margin: 0 0 14px;
   color: var(--color-muted);
   font-size: 0.85rem;
   white-space: nowrap;
@@ -88,7 +126,7 @@
 
 @media (max-width: 600px) {
   #experience {
-    padding: 48px 22px 72px;
+    padding: 104px 22px 72px;
   }
 
   .experience-intro {
@@ -97,12 +135,20 @@
   }
 
   .experience-item {
-    padding: 22px;
+    padding: 0;
   }
 
-  .experience-header {
-    flex-direction: column;
-    gap: 10px;
+  .experience-summary {
+    padding: 22px;
+    gap: 16px;
+  }
+
+  .experience-content {
+    padding: 18px 22px 22px;
+  }
+
+  .experience-role {
+    font-size: 1.1rem;
   }
 
   .experience-date {
@@ -111,11 +157,8 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .experience-item {
+  .experience-item,
+  .experience-arrow {
     transition: none;
-  }
-
-  .experience-item:hover {
-    transform: none;
   }
 }
