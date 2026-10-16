@@ -22,7 +22,7 @@ function Home() {
         </div>
 
         <div className="hero-actions">
-          <a href="/projects" className="hero-button primary">
+          <a href="#projects" className="hero-button primary">
             View Projects
           </a>
 

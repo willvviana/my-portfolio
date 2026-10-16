@@ -10,7 +10,7 @@ function Footer() {
         {/* Brand and navigation */}
         <div className="footer-top">
           <div className="footer-brand">
-            <a className="footer-name" href="/">
+            <a className="footer-name" href="#home">
               Will Viana
             </a>
 
@@ -20,11 +20,11 @@ function Footer() {
           </div>
 
           <nav className="footer-nav" aria-label="Footer navigation">
-            <a href="/">Home</a>
-            <a href="/projects">Projects</a>
-            <a href="/experience">Experience</a>
-            <a href="/about">About</a>
-            <a href="/contact">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
           </nav>
 
           {/* External professional profiles */}
@@ -55,7 +55,7 @@ function Footer() {
             © {currentYear} Will Viana. All rights reserved.
           </span>
 
-          <a href="/">Home ↑</a>
+          <a href="#home">Home ↑</a>
         </div>
       </div>
     </footer>

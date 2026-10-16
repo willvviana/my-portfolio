@@ -1,5 +1,5 @@
 #experience {
-  padding: 120px 24px 100px;
+  padding: 64px 24px 100px;
   background: var(--color-bg);
 }
 
@@ -126,7 +126,7 @@
 
 @media (max-width: 600px) {
   #experience {
-    padding: 104px 22px 72px;
+    padding: 48px 22px 72px;
   }
 
   .experience-intro {
