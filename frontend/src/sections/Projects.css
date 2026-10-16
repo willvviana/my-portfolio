@@ -52,8 +52,9 @@
 }
 
 .project-summary {
+  position: relative;
   display: block;
-  padding: 24px 28px;
+  padding: 24px 56px 24px 28px;
   cursor: pointer;
   list-style: none;
 }
@@ -83,18 +84,21 @@
 }
 
 .project-arrow {
+  position: absolute;
+  top: 50%;
+  right: 28px;
   width: 10px;
   height: 10px;
   flex: 0 0 10px;
   border-right: 2px solid var(--color-muted);
   border-bottom: 2px solid var(--color-muted);
-  transform: translateY(-3px) rotate(45deg);
+  transform: translateY(-50%) rotate(45deg);
   transition: transform 180ms ease, border-color 180ms ease;
 }
 
 .project-card[open] .project-arrow {
   border-color: var(--color-accent);
-  transform: translateY(3px) rotate(225deg);
+  transform: translateY(-50%) rotate(225deg);
 }
 
 .project-content {
@@ -172,7 +176,11 @@
   }
 
   .project-summary {
-    padding: 22px;
+    padding: 22px 48px 22px 22px;
+  }
+
+  .project-arrow {
+    right: 22px;
   }
 
   .project-content {
