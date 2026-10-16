@@ -1,6 +1,6 @@
 #about {
   position: relative;
-  padding: 64px 24px 100px;
+  padding: 24px 24px 100px;
   background: var(--color-bg);
 }
 
@@ -70,7 +70,7 @@
 
 @media (max-width: 600px) {
   #about {
-    padding: 48px 22px 72px;
+    padding: 24px 22px 72px;
   }
 
   #about .section-title {
