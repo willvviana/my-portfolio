@@ -17,6 +17,47 @@ function Projects() {
           <details className="project-card">
             <summary className="project-summary">
               <span className="project-heading">
+                <span className="project-name">ECOA — Local Audio &amp; Music Assistant</span>
+                <span className="project-arrow" aria-hidden="true" />
+              </span>
+              <span className="project-category">AI &amp; Desktop Development</span>
+            </summary>
+
+            <div className="project-content">
+              <p>
+                A local-first Windows desktop assistant that captures system
+                audio, transcribes English and Portuguese, and helps create,
+                edit, and organize music on the user's PC.
+              </p>
+
+              <p className="project-detail">
+                <strong>Key features:</strong> Live transcription, chat grounded
+                in personal notes, lyric suggestions, on-demand song generation,
+                audio editing, and playlists.
+              </p>
+
+              <p className="project-detail">
+                <strong>Engineering focus:</strong> React desktop interface,
+                local Python API, real-time audio processing, WebSocket events,
+                and integration with on-device speech, chat, and music models.
+              </p>
+
+              <p className="project-tech">
+                <strong>Stack:</strong> Python, FastAPI, React, TypeScript, Vite,
+                WebSockets, Whisper, llama.cpp, ACE-Step
+              </p>
+
+              <div className="project-links">
+                <a href="https://github.com/willvviana/ecoa" target="_blank" rel="noreferrer">
+                  Source Code -&gt;
+                </a>
+              </div>
+            </div>
+          </details>
+
+          <details className="project-card">
+            <summary className="project-summary">
+              <span className="project-heading">
                 <span className="project-name">Moneta — Personal Finance</span>
                 <span className="project-arrow" aria-hidden="true" />
               </span>
